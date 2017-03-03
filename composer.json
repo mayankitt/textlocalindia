@@ -1,0 +1,7 @@
+{
+    "name": "mayankitt/textlocalindia",
+    "description": "Textlocal API helper class. Examples included. Requires PHP cURL module.",
+    "require": {
+        "php": "^5.2 || ^7.0",
+    }
+}
