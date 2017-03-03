@@ -1,7 +1,24 @@
 {
-    "name": "mayankitt/textlocalindia",
-    "description": "Textlocal API helper class. Examples included. Requires PHP cURL module.",
-    "require": {
-        "php": "^5.2 || ^7.0",
+  "name": "mayankitt/textlocalindia",
+  "description": "Textlocal API helper class. Examples included. Requires PHP cURL module.",
+  "keywords": ["textlocalindia", "textlocal", "sms"],
+  "homepage": "https://github.com/mayankitt/textlocalindia",
+  "type": "library",
+  "authors": [
+    {
+      "name": "mayankitt",
+      "homepage": "https://github.com/mayankitt"
     }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*",
+  },
+  "autoload": {
+    "psr-0": {
+      "Curl": "php-in/"
+    }
+  }
 }
